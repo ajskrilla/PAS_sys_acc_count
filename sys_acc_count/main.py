@@ -17,7 +17,7 @@ else:
     c = Cache(**f.loaded['tenants'][0])
 # Security test
 sec_test(**c.ten_info)
-# Going to go get the Secret Folder and contents
+# Going to get info from the tenant
 def get_count(tenant, header, **ignored):
     log.info("Getting a count of all accounts and systems in tenant: {tenant}".format(**f.loaded['tenants'][0]))
     # Account info
